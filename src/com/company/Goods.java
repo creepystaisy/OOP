@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Goods {
 
     public int goodId;
@@ -13,8 +15,10 @@ public class Goods {
         this.goodId = goodId;
     }
 
-    public Goods(int goodId, double goodPrice, String goodDescription) {
+    public Goods(double goodPrice, boolean goodDelivery, String goodDescription) {
         this.goodPrice = goodPrice;
+        this.goodDelivery = goodDelivery;
+        this.goodDescription = goodDescription;
     }
 
     public Goods(int goodId, double goodPrice, boolean goodDelivery, String goodDescription) {
@@ -56,9 +60,15 @@ public class Goods {
     public void setGoodDescription(String goodDescription) {
         this.goodDescription = goodDescription;
     }
+
+    public void printGood()
+    {
+        System.out.print(this);
+    }
     @Override
     public String toString()
     {
         return getGoodId()+", "+getGoodPrice()+", "+getGoodDescription();
     }
+
 }

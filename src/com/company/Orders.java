@@ -78,4 +78,22 @@ public class Orders {
                 ", orderDate=" + orderDate +
                 '}';
     }
+    public static ArrayList<Goods> putGoodsList(Goods... orders)
+    {
+        ArrayList <Goods> myList = new ArrayList<Goods>();
+
+        for(int i = 0; i < orders.length; i++) {
+            myList.add(orders[i]);
+        }
+        return myList;
+    }
+    public static ArrayList <Integer> putAmountList(Integer... orders)
+    {
+        ArrayList <Integer> myList = new ArrayList<Integer>();
+
+        for(int i = 0; i < orders.length; i++) {
+            myList.add(orders[i]);
+        }
+        return myList;
+    }
 }

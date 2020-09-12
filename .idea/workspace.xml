@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,33 +54,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="709" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1599924089980">
+    <state x="709" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1599940718584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="709" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599924089980" />
+    <state x="709" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599940718584" />
     <state x="524" y="292" key="#com.intellij.refactoring.replaceConstructorWithFactory.ReplaceConstructorWithFactoryDialog" timestamp="1599832886990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="524" y="292" key="#com.intellij.refactoring.replaceConstructorWithFactory.ReplaceConstructorWithFactoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1599832886990" />
-    <state width="1305" height="174" key="GridCell.Tab.0.bottom" timestamp="1599852215097">
+    <state width="1305" height="171" key="GridCell.Tab.0.bottom" timestamp="1599942747598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1305" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599852215097" />
-    <state width="1305" height="174" key="GridCell.Tab.0.center" timestamp="1599852215096">
+    <state width="1305" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599942747598" />
+    <state width="1305" height="171" key="GridCell.Tab.0.center" timestamp="1599942747598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1305" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599852215096" />
-    <state width="1305" height="174" key="GridCell.Tab.0.left" timestamp="1599852215096">
+    <state width="1305" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599942747598" />
+    <state width="1305" height="171" key="GridCell.Tab.0.left" timestamp="1599942747598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1305" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599852215096" />
-    <state width="1305" height="174" key="GridCell.Tab.0.right" timestamp="1599852215097">
+    <state width="1305" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599942747598" />
+    <state width="1305" height="171" key="GridCell.Tab.0.right" timestamp="1599942747598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1305" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599852215097" />
+    <state width="1305" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599942747598" />
     <state x="379" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1599832125496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599832125496" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1599941871829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599941871829" />
   </component>
 </project>
