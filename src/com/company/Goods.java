@@ -13,7 +13,7 @@ public class Goods {
         this.goodId = goodId;
     }
 
-    public Goods(double goodPrice) {
+    public Goods(int goodId, double goodPrice, String goodDescription) {
         this.goodPrice = goodPrice;
     }
 
