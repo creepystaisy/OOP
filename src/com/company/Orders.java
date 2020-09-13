@@ -6,11 +6,11 @@ import java.util.Date;
 
 public class Orders {
 
-    public int orderId;
-    public Customers orderCustomer;
-    public ArrayList <Goods> orderGood;
-    public ArrayList<Integer> orderAmount;
-    public Date orderDate;
+    private int orderId;
+    private Customers orderCustomer;
+    private ArrayList <Goods> orderGood;
+    private ArrayList<Integer> orderAmount;
+    private Date orderDate;
 
     //Конструкторы
 
@@ -27,46 +27,6 @@ public class Orders {
     }
     //геттеры сеттеры
 
-    public int getOrderId() {
-        return orderId;
-    }
-
-    public void setOrderId(int orderId) {
-        this.orderId = orderId;
-    }
-
-    public Customers getOrderCustomer() {
-        return orderCustomer;
-    }
-
-    public void setOrderCustomer(Customers orderCustomer) {
-        this.orderCustomer = orderCustomer;
-    }
-
-    public ArrayList <Goods> getOrderGood() {
-        return orderGood;
-    }
-
-    public void setOrderGood(ArrayList <Goods> orderGood) {
-        this.orderGood = orderGood;
-    }
-
-    public Date getOrderDate() {
-        return orderDate;
-    }
-
-    public void setOrderDate(Date orderDate) {
-        this.orderDate = orderDate;
-    }
-
-    public ArrayList<Integer> getOrderAmount() {
-        return orderAmount;
-    }
-
-    public void setOrderAmount(ArrayList<Integer> orderAmount) {
-        this.orderAmount = orderAmount;
-    }
-
 
     @Override
     public String toString() {
@@ -78,13 +38,13 @@ public class Orders {
                 ", orderDate=" + orderDate +
                 '}';
     }
-    public static ArrayList<Goods> putGoodsList(Goods... orders)
+    public static ArrayList<Goods> putGoodsList()
     {
         ArrayList <Goods> myList = new ArrayList<Goods>();
-
-        for(int i = 0; i < orders.length; i++) {
-            myList.add(orders[i]);
-        }
+        GoodsFactory factory = new GoodsFactory();
+        myList.add(factory.getGoods(GoodTypes.BOOK));
+        myList.add(factory.getGoods(GoodTypes.BOOT));
+        myList.add(factory.getGoods(GoodTypes.MUSICLICENSE));
         return myList;
     }
     public static ArrayList <Integer> putAmountList(Integer... orders)

@@ -11,7 +11,7 @@ public class Main {
         Goods books = new Goods(2, 500, true, "books");
 
         Customers nornikel = new Customers(0, "OOONornikel", "Saratov", "89959697846", "vova");
-        Orders nornikel01 = new Orders(0, nornikel, Orders.putGoodsList(books, boots, programLicense), Orders.putAmountList(3, 4, 1), new Date());
+        Orders nornikel01 = new Orders(0, nornikel, Orders.putGoodsList(), Orders.putAmountList(3, 4, 1), new Date());
         System.out.println(boots);
         System.out.println(nornikel01);
         System.out.println(nornikel);
