@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63134ea3-5c66-4b2f-9f89-c76539b2421c" name="Default Changelist" comment="" />
+    <list default="true" id="e22f3149-10ad-4333-a45a-3c402f0461b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOP/com/company/Customers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOP/com/company/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOP/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOP/com/company/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Positions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +29,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1hKgenw6Bx6V4MtaJdYtFoJLVJb" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\1\OOP\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hVjBqCC1jnH318AX8dejZM2nrI" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -24,8 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -49,50 +76,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63134ea3-5c66-4b2f-9f89-c76539b2421c" name="Default Changelist" comment="" />
-      <created>1599765295248</created>
+      <changelist id="e22f3149-10ad-4333-a45a-3c402f0461b4" name="Default Changelist" comment="" />
+      <created>1600103020617</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599765295248</updated>
+      <updated>1600103020617</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="709" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1599980480383">
+    <state x="563" y="107" key="#com.intellij.ide.util.MemberChooser" timestamp="1600105464379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="709" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599980480383" />
-    <state x="524" y="292" key="#com.intellij.refactoring.replaceConstructorWithFactory.ReplaceConstructorWithFactoryDialog" timestamp="1599832886990">
+    <state x="563" y="107" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600105464379" />
+    <state width="1306" height="173" key="GridCell.Tab.0.bottom" timestamp="1600105742465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="524" y="292" key="#com.intellij.refactoring.replaceConstructorWithFactory.ReplaceConstructorWithFactoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1599832886990" />
-    <state width="1305" height="171" key="GridCell.Tab.0.bottom" timestamp="1600008162793">
+    <state width="1306" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600105742465" />
+    <state width="1306" height="173" key="GridCell.Tab.0.center" timestamp="1600105742465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1305" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600008162793" />
-    <state width="1305" height="171" key="GridCell.Tab.0.center" timestamp="1600008162793">
+    <state width="1306" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600105742465" />
+    <state width="1306" height="173" key="GridCell.Tab.0.left" timestamp="1600105742465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1305" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600008162793" />
-    <state width="1305" height="171" key="GridCell.Tab.0.left" timestamp="1600008162792">
+    <state width="1306" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600105742465" />
+    <state width="1306" height="173" key="GridCell.Tab.0.right" timestamp="1600105742465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1305" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600008162792" />
-    <state width="1305" height="171" key="GridCell.Tab.0.right" timestamp="1600008162793">
+    <state width="1306" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600105742465" />
+    <state x="492" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600103131279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1305" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600008162793" />
-    <state x="184" y="15" key="SettingsEditor" timestamp="1599988417269">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599988417269" />
-    <state x="379" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1599832125496">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="379" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599832125496" />
-    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1599941871829">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599941871829" />
+    <state x="492" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1600103131279" />
   </component>
 </project>
