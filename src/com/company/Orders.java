@@ -8,74 +8,40 @@ public class Orders {
 
     public int orderId;
     public Customers orderCustomer;
-    public ArrayList <Goods> orderGood;
-    public ArrayList<Integer> orderAmount;
+    public ArrayList <Positions> orderGood;
     public Date orderDate;
-
+    public int orderCount = 0;
     //Конструкторы
 
-    public Orders(int orderId) {
-        this.orderId = orderId;
-    }
 
-    public Orders(int orderId, Customers orderCustomer, ArrayList <Goods> orderGood, ArrayList <Integer> orderAmount, Date orderDate) {
-        this.orderId = orderId;
+
+    public Orders( Customers orderCustomer, Date orderDate, int amount1, int amount2, int amount3) {
+        this.orderId = orderCount;
         this.orderCustomer = orderCustomer;
-        this.orderGood = orderGood;
-        this.orderAmount = orderAmount;
+        this.orderGood = putGoodsList(amount1, amount2, amount3);
         this.orderDate = orderDate;
+        orderCount++;
     }
     //геттеры сеттеры
-
-    public int getOrderId() {
-        return orderId;
-    }
-
-    public void setOrderId(int orderId) {
-        this.orderId = orderId;
-    }
-
-    public Customers getOrderCustomer() {
-        return orderCustomer;
-    }
-
-    public void setOrderCustomer(Customers orderCustomer) {
-        this.orderCustomer = orderCustomer;
-    }
-
-    public ArrayList <Goods> getOrderGood() {
-        return orderGood;
-    }
-
-    public void setOrderGood(ArrayList <Goods> orderGood) {
-        this.orderGood = orderGood;
-    }
-
-    public Date getOrderDate() {
-        return orderDate;
-    }
-
-    public void setOrderDate(Date orderDate) {
-        this.orderDate = orderDate;
-    }
-
-    public ArrayList<Integer> getOrderAmount() {
-        return orderAmount;
-    }
-
-    public void setOrderAmount(ArrayList<Integer> orderAmount) {
-        this.orderAmount = orderAmount;
+    public static ArrayList<Positions> putGoodsList(int ... amount)
+    {
+        ArrayList <Positions> myList = new ArrayList<Positions>();
+        myList.add(new Positions(new Goods(0, 100, true, "boot"), amount[0]));
+        myList.add(new Positions(new Goods(0, 100, true, "boot"), amount[1]));
+        myList.add(new Positions(new Goods(0, 100, true, "boot"), amount[2]));
+        return myList;
     }
 
 
     @Override
     public String toString() {
-        return "Orders{" +
-                "orderId=" + orderId +
-                ", orderCustomer=" + orderCustomer +
-                ", orderGood=" + orderGood +
-                ", orderAmount=" + orderAmount +
-                ", orderDate=" + orderDate +
-                '}';
+        return "Order: " +
+                "#" + orderId + "\n" +
+                "..............................."+"\n"+
+                "Customer: " + orderCustomer +"\n"+
+                "..............................."+"\n"+
+                "Goods            Number            Price"+"\n"+ orderGood + "\n"+
+                "..............................."+"\n"+
+                "               Date: " + orderDate;
     }
 }

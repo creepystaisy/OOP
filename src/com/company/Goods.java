@@ -9,13 +9,7 @@ public class Goods {
 
 
     //Конструкторы
-    public Goods(int goodId) {
-        this.goodId = goodId;
-    }
 
-    public Goods(double goodPrice) {
-        this.goodPrice = goodPrice;
-    }
 
     public Goods(int goodId, double goodPrice, boolean goodDelivery, String goodDescription) {
         this.goodId = goodId;
@@ -29,33 +23,16 @@ public class Goods {
         return goodId;
     }
 
-    public void setGoodId(int goodId) {
-        this.goodId = goodId;
-    }
 
     public double getGoodPrice() {
         return goodPrice;
     }
 
-    public void setGoodPrice(double goodPrice) {
-        this.goodPrice = goodPrice;
-    }
-
-    public boolean isGoodDelivery() {
-        return goodDelivery;
-    }
-
-    public void setGoodDelivery(boolean goodDelivery) {
-        this.goodDelivery = goodDelivery;
-    }
 
     public String getGoodDescription() {
         return goodDescription;
     }
 
-    public void setGoodDescription(String goodDescription) {
-        this.goodDescription = goodDescription;
-    }
     @Override
     public String toString()
     {
