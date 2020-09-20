@@ -1,6 +1,14 @@
+[
 {
-  "goodId": 0,
-  "goodPrice": 111.9 ,
-  "goodDelivery": true,
-  "goodDescription": "boot"
+"goodId": 0,
+"goodPrice": 11 ,
+"goodDelivery": true,
+"goodDescription": "very good pen"
+},
+{
+"goodId": 1,
+"goodPrice": 200 ,
+"goodDelivery": true,
+"goodDescription": "orange tea"
 }
+]

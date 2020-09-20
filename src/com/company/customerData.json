@@ -1,0 +1,16 @@
+[
+  {
+    "customerId": 0,
+    "customerName": "OOO Aris" ,
+    "customerAdress": "410046, Saratov, Azina st., 98",
+    "customerPhone": "924365",
+    "customerContactPerson": "Andrey Manilov"
+  },
+  {
+    "customerId": 0,
+    "customerName": "OOO Antiut" ,
+    "customerAdress": "410089, Saratov, Lenina st., 98",
+    "customerPhone": "89198234567",
+    "customerContactPerson": "Alexey Kirov"
+  }
+]
