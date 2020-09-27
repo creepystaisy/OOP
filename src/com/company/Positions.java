@@ -7,10 +7,11 @@ public class Positions {
 
     @Override
     public String toString() {
-        return
-                positionGood.getGoodDescription() +
-                "            " + positionAmount +
-                "            " + positionPrice +"\n";
+        return "Positions[" +
+                "positionGood=" + positionGood +
+                ", positionAmount=" + positionAmount +
+                ", positionPrice=" + positionPrice +
+                ']';
     }
 
     public Positions(Goods positionGood, int positionAmount) {

@@ -1,7 +1,16 @@
 package com.company;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+import java.io.*;
+import java.io.PrintWriter;
+
+import static org.json.simple.JSONArray.toJSONString;
 
 
 public class Orders {
@@ -15,7 +24,7 @@ public class Orders {
 
 
 
-    public Orders( Customers orderCustomer, Date orderDate, int amount1, int amount2, int amount3) {
+    public Orders( Customers orderCustomer, Date orderDate, int amount1, int amount2, int amount3) throws IOException {
         this.orderId = orderCount;
         this.orderCustomer = orderCustomer;
         this.orderGood = putGoodsList(amount1, amount2, amount3);
@@ -32,16 +41,30 @@ public class Orders {
         return myList;
     }
 
+    public void putIntoJson ()
+    {
+        try
 
-    @Override
-    public String toString() {
-        return "Order: " +
-                "#" + orderId + "\n" +
-                "..............................."+"\n"+
-                "Customer: " + orderCustomer +"\n"+
-                "..............................."+"\n"+
-                "Goods            Number            Price"+"\n"+ orderGood + "\n"+
-                "..............................."+"\n"+
-                "               Date: " + orderDate;
+        {
+            PrintWriter writer = new PrintWriter("OrdersData.json", "UTF-8");
+            GsonBuilder builder = new GsonBuilder();
+            Gson gson = builder.create();
+            String text = gson.toJson(this);
+            writer.println(text);
+            writer.close();
+        }
+        catch (FileNotFoundException | UnsupportedEncodingException exeption)
+        {
+            System.out.println("!!!");
+        }
     }
+
+    /*@Override
+    public String toString() {
+        return "{" +"\n"+
+                "orderId: " + orderId +"," +"\n" +
+                "orderCustomer: " + orderCustomer +","+"\n"+
+                "orderGood: "+ orderGood +","+ "\n"+
+                "Date: " + orderDate +","+ "\n"+"},"+"\n";
+    }*/
 }

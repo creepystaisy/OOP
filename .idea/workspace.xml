@@ -45,11 +45,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/json-simple-1.1.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gson-1.4.jar/gson-1.4.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -87,38 +87,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="563" y="107" key="#com.intellij.ide.util.MemberChooser" timestamp="1600105464379">
+    <state x="563" y="107" key="#com.intellij.ide.util.MemberChooser" timestamp="1601193294747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="563" y="107" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600105464379" />
+    <state x="563" y="107" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601193294747" />
     <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600622317437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1600622317437" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1600622774835">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1601201036296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600622774835" />
-    <state width="1306" height="173" key="GridCell.Tab.0.bottom" timestamp="1600105742465">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601201036296" />
+    <state width="1322" height="158" key="GridCell.Tab.0.bottom" timestamp="1601203713100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600105742465" />
-    <state width="1306" height="173" key="GridCell.Tab.0.center" timestamp="1600105742465">
+    <state width="1322" height="158" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601203713100" />
+    <state width="1322" height="158" key="GridCell.Tab.0.center" timestamp="1601203713100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600105742465" />
-    <state width="1306" height="173" key="GridCell.Tab.0.left" timestamp="1600105742465">
+    <state width="1322" height="158" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601203713100" />
+    <state width="1322" height="158" key="GridCell.Tab.0.left" timestamp="1601203713100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600105742465" />
-    <state width="1306" height="173" key="GridCell.Tab.0.right" timestamp="1600105742465">
+    <state width="1322" height="158" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601203713100" />
+    <state width="1322" height="158" key="GridCell.Tab.0.right" timestamp="1601203713100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600105742465" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1600622786877">
+    <state width="1322" height="158" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601203713100" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1601201042547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600622786877" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601201042547" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1601118386323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601118386323" />
     <state x="492" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600103131279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -127,5 +131,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="314" y="61" width="737" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600622472628" />
+    <state x="65" y="0" key="new project wizard" timestamp="1601121900113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1601121900113" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1601193498484">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1601193498484" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600794533570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600794533570" />
   </component>
 </project>
